@@ -16,7 +16,9 @@ Ici vous avez 3 cellules et un tableau :
 •	Service : le service qui a fait cette commande
 •	Tableau : c’est pour définir le contenu de la commande.
 Une fois vous avez élaboré la commande vous avez un bouton pour enregistrer la référence de la commande : 
+
 ![bon de commande](../site/Bon_cmd/image2.png)
+
 Ces données sont enregistrés dans la feuille « suivi-commande ».
 ![bon de commande](../site/Bon_cmd/image3.png)
 Exemple :
