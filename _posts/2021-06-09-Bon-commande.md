@@ -1,26 +1,24 @@
 ---
 layout: post
 title:  "Bon de commande"
-categories: [ Jekyll, tutorial ]
+categories: [ Gestion commerciale ]
 image: assets/images/gestion-commercial/bon_cmd.jfif
 featured: true
 hidden: true
+description : "application Excel pour réaliser un bon de commande facile et simple"
 ---
-
-Director Roland Suso Richter's enigmatic psychological thriller (direct to video/DVD) was based upon screenwriter Michael Cooney's own play "Point of Death" - a title that gave away the film's entire plot twist premise.
-
-As in many similar films, such as Jacob's Ladder (1990), Soul Survivors (2001), and The Butterfly Effect (2004), events and people were thoroughly distorted and confused because the protagonist was at the point of death. The tagline was misleading:
-
-"When You Don't Have a Memory, How Can You Remember Who to Trust?"
-
-The mind-warping film opened with a hospital patient Simon Cable (Ryan Phillippe) awakening in a <span class="spoiler"> hospital with little knowledge (amnesia perhaps?) of what had happened, and why he was there, etc. He was told by attending Dr. Jeremy Newman (Stephen Rea) that it was July 29, 2002 (Simon thought it was the year 2000 - he was confused - he heard a doctor say 20:00 hours!) and that he had died for two minutes from cardiac arrest following the near-fatal accident -- but he had been revived ("You're as good as new").</span> Dr. Newman: "Simon, this is the 29th of July. The year is 2002. And your wife, whose name is Anna, is waiting outside." 
-
-(The doctor left off four crucial additional words, revealed in the film's ending.) (Spoiler: Simon had died and was not resuscitated!).
-
-A major clue to everything that truly happened was the scene that played next under the credits - hospital staff failed to bring a patient back to life with a defibrillator after a car accident. Chest compressions failed and there was no pulse. A second major clue was provided by hospital orderly Travis (Stephen Graham): <span class="spoiler">Everybody dies. No mystery there. But why and how everyone dies. Now, there's a mystery worth solving. Probably the biggest mystery there is.</span>
-
-#### So how do we do spoilers?
-
-```html
-<span class="spoiler">My hidden paragraph here.</span>
-```
+Dans un organisme, on a toujours besoin de réaliser d’une façon périodique des bons de commandes, chose qu’on fait habituellement d’une manière manuscrite. Comme ça on risque de perdre l’historique de ces demandes et on n’arrive pas à en faire un suivi.
+C’est pour cette raison, je vous propose un Bon de commande sous format EXCEL simple que vous pouvez utiliser intra-service.
+![bon de commande](../site/Bon_cmd/image1.png)
+Ici vous avez 3 cellules et un tableau :
+•	Date : pour saisir la date d’émission de la commande ici j’ai utilisé la formule « =AUJOURDHUI() »mais que vous pouvez effacer et la saisir manuellement.
+•	Référence : pour indique le numéro de la commande
+•	Service : le service qui a fait cette commande
+•	Tableau : c’est pour définir le contenu de la commande.
+Une fois vous avez élaboré la commande vous avez un bouton pour enregistrer la référence de la commande : 
+![bon de commande](../site/Bon_cmd/image2.png)
+Ces données sont enregistrés dans la feuille « suivi-commande ».
+![bon de commande](../site/Bon_cmd/image3.png)
+Exemple :
+![bon de commande](../site/Bon_cmd/image4.png)
+![bon de commande](../site/Bon_cmd/image5.png)
